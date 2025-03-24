@@ -9,13 +9,13 @@
     }
 
     .conteudo__depoimento {
-        /* display: grid;
-        gap: 2rem */
+        display: grid;
+        gap: 2rem
     }
 
     /* Estilização do Depoimento do Daniel */
     .depoimento__daniel {
-        width: 40.438rem;
+        width: 36.438rem;
         margin-top: 4.563rem;
         background-color: var(--purple-500);
         padding: 2rem;
@@ -24,7 +24,7 @@
         justify-self: center;
         background-image: url(/Assets/bg-pattern-quotation.svg);
         background-repeat: no-repeat;
-        background-position: 63.5% 0%;
+        background-position: 71.5% 0%;
     }
 
     .depoimento__daniel img {
@@ -75,18 +75,16 @@
         line-height: 140%;
     }
 
-    .depoimento__grupo3 {
-        display: flex;
-        justify-content: center;
-    }
-
     /* Estilização do Depoimento do Jonathan */
     .depoimento__jonathan {
-        width: 16.063rem;
+        width: 15.063rem;
         background-color: var(--grey-500);
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
+        grid-row: 2;
+        grid-column: 1;
+        margin-left: 3.870rem;
     }
 
     .depoimento__jonathan img {
@@ -138,12 +136,15 @@
 
     /* Estilização do Depoimento da Jeanette Harmon */
     .depoimento__jeanette {
-        width: 16.063rem;
+        width: 15.063rem;
         background-color: var(--white);
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        margin-right: 1.875rem;
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: end;
+        margin-right: 3.750rem;
     }
 
     .depoimento__jeanette img {
@@ -195,7 +196,7 @@
 
     /* Estilização do Depoimento do Patrick Abrams */
     .depoimento__patrick {
-        width: 40.438rem;
+        width: 36.438rem;
         background-color: var(--dark-blue);
         padding: 2rem;
         border-radius: 0.5rem;
@@ -252,7 +253,7 @@
 
     /* Estilização do Depoimento da Kira Whittle */
     .depoimento__kira {
-        width: 40.438rem;
+        width: 36.438rem;
         margin-bottom: 4.563rem;
         background-color: var(--white);
         padding: 2rem;

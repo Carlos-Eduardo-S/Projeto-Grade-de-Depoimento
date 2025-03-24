@@ -2,7 +2,7 @@
 @import url(/Design/variaveis.css);
 
 /* Estilização do Tablet */
-@media screen and (min-width: 48.1rem) /*and (max-width: 48rem)*/ {
+@media screen and (min-width: 48.1rem) {
     body {
         background-color: var(--back-white);
         font-family: var(--barlow);
@@ -12,20 +12,9 @@
     }
 
     .conteudo__depoimento {
-        margin-top: 14.313rem;
-        margin-left: 10.313rem;
-        margin-right: 10.063rem;
-        margin-bottom: 13.325rem;
+        margin: 14.313rem 10.063rem 13.325rem 10.313rem;
         display: grid;
-        gap: 2rem
-    }
-
-    /* Estilização do Grupo 1 */
-    .depoimento__grupo1 {
-        grid-column: 1;
-        grid-row: 1;
-        display: flex;
-        gap: 2rem;
+        gap: 1.5rem
     }
 
     /* Estilização do Depoimento do Daniel */
@@ -37,7 +26,9 @@
         box-shadow: 1px 2px 6px var(--grey-400);
         background-image: url(/Assets/bg-pattern-quotation.svg);
         background-repeat: no-repeat;
-        background-position: 73.5% 0%;
+        background-position: 85.5% 0%;
+        grid-column: span 2;
+        grid-row: 1;
     }
 
     .depoimento__daniel img {
@@ -95,6 +86,8 @@
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
+        grid-column: 3;
+        grid-row: 1;
     }
 
     .depoimento__jonathan img {
@@ -145,14 +138,6 @@
         line-height: 140%;
     }
 
-    /* Estilização do Grupo 2 */
-    .depoimento__grupo2 {
-        grid-column: 1;
-        grid-row: 2;
-        display: flex;
-        gap: 2rem;
-    }
-
     /* Estilização do Depoimento da Jeanette Harmon */
     .depoimento__jeanette {
         width: 12.063rem;
@@ -160,6 +145,8 @@
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
+        grid-column: 1;
+        grid-row: 2;
     }
 
     .depoimento__jeanette img {
@@ -216,6 +203,8 @@
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
+        grid-column: span 3;
+        grid-row: 2;
     }
 
     .depoimento__patrick img {
@@ -272,7 +261,7 @@
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        grid-column: 2;
+        grid-column: 5;
         grid-row: span 2;
     }
 
