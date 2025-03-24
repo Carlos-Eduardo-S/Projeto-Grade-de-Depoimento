@@ -21,7 +21,8 @@
         margin-top: 4.563rem;
         background-color: var(--purple-500);
         padding: 2rem;
-        border-radius: 0.5rem
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
     }
 
     .depoimento__daniel img {
@@ -38,12 +39,47 @@
         margin-bottom: 1rem;
     }
 
+    .nome__daniel {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__daniel {
+        font-size: 0.688rem;
+        font-weight: 200;
+        color: var(--purple-50);
+    }
+
+    .depoimento__informacoes__daniel {
+        width: 15.063rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__daniel {
+        color: var(--white);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__daniel {
+        color: var(--purple-50);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
     /* Estilização do Depoimento do Jonathan */
     .depoimento__jonathan {
         width: 16.063rem;
         background-color: var(--grey-500);
         padding: 2rem;
-        border-radius: 0.5rem
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
     }
 
     .depoimento__jonathan img {
@@ -59,12 +95,47 @@
         margin-bottom: 1rem;
     }
 
+    .nome__jonathan {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__jonathan {
+        font-size: 0.688rem;
+        font-weight: 200;
+        color: var(--purple-50);
+    }
+
+    .depoimento__informacoes__jonathan {
+        width: 15.063rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__jonathan {
+        color: var(--white);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__jonathan {
+        color: var(--purple-50);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
     /* Estilização do Depoimento da Jeanette Harmon */
     .depoimento__jeanette {
         width: 16.063rem;
         background-color: var(--white);
         padding: 2rem;
-        border-radius: 0.5rem
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
     }
 
     .depoimento__jeanette img {
@@ -80,12 +151,47 @@
         margin-bottom: 1rem;
     }
 
+    .nome__jeanette {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--grey-400);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__jeanette {
+        font-size: 0.688rem;
+        font-weight: 200;
+        color: var(--grey-500);
+    }
+
+    .depoimento__informacoes__jeanette {
+        width: 15.063rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__jeanette {
+        color: var(--grey-500);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__jeanette {
+        color: var(--grey-400);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
     /* Estilização do Depoimento do Patrick Abrams */
     .depoimento__patrick {
         width: 16.063rem;
         background-color: var(--dark-blue);
         padding: 2rem;
-        border-radius: 0.5rem
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
     }
 
     .depoimento__patrick img {
@@ -141,7 +247,8 @@
         margin-bottom: 4.563rem;
         background-color: var(--white);
         padding: 2rem;
-        border-radius: 0.5rem
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
     }
 
     .depoimento__kira img {
@@ -185,76 +292,6 @@
     }
 
     .informacoes__texto__kira {
-        color: var(--grey-400);
-        font-size: 0.813rem;
-        font-weight: 400;
-        line-height: 140%;
-    }
-
-    /* Estilização dos Depoimentos para Homens */
-    .nome__homem {
-        font-size: 0.813rem;
-        font-weight: 500;
-        color: var(--white);
-        margin-bottom: 0.25rem;
-    }
-
-    .verificacao__homem {
-        font-size: 0.688rem;
-        font-weight: 200;
-        color: var(--purple-50);
-    }
-
-    .depoimento__informacoes__homem {
-        width: 15.063rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .informacoes__destaque__homem {
-        color: var(--white);
-        font-size: 1.25rem;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-    .informacoes__texto__homem {
-        color: var(--purple-50);
-        font-size: 0.813rem;
-        font-weight: 400;
-        line-height: 140%;
-    }
-
-    /* Estilzação dos Depoimentos para Mulheres */
-    .nome__mulher {
-        font-size: 0.813rem;
-        font-weight: 500;
-        color: var(--grey-400);
-        margin-bottom: 0.25rem;
-    }
-
-    .verificacao__mulher {
-        font-size: 0.688rem;
-        font-weight: 200;
-        color: var(--grey-500);
-    }
-
-    .depoimento__informacoes__mulher {
-        width: 15.063rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .informacoes__destaque__mulher {
-        color: var(--grey-500);
-        font-size: 1.25rem;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-    .informacoes__texto__mulher {
         color: var(--grey-400);
         font-size: 0.813rem;
         font-weight: 400;
