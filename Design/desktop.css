@@ -1,30 +1,43 @@
 /* Importações */
 @import url(/Design/variaveis.css);
 
-/* Estilização do Desktop */
-@media screen and (min-width: 48.1rem) and (max-width: 90rem) {
+/* Estilização do Tablet */
+@media screen and (min-width: 48.1rem) /*and (max-width: 48rem)*/ {
     body {
         background-color: var(--back-white);
         font-family: var(--barlow);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .conteudo__depoimento {
+        margin-top: 14.313rem;
+        margin-left: 10.313rem;
+        margin-right: 10.063rem;
+        margin-bottom: 13.325rem;
         display: grid;
         gap: 2rem
     }
 
+    /* Estilização do Grupo 1 */
+    .depoimento__grupo1 {
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        gap: 2rem;
+    }
+
     /* Estilização do Depoimento do Daniel */
     .depoimento__daniel {
-        width: 40.438rem;
-        margin-top: 4.563rem;
+        width: 30.438rem;
         background-color: var(--purple-500);
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        justify-self: center;
         background-image: url(/Assets/bg-pattern-quotation.svg);
         background-repeat: no-repeat;
-        background-position: 63.5% 0%;
+        background-position: 73.5% 0%;
     }
 
     .depoimento__daniel img {
@@ -55,7 +68,7 @@
     }
 
     .depoimento__informacoes__daniel {
-        width: 36.438rem;
+        width: 30.438rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -77,14 +90,11 @@
 
     /* Estilização do Depoimento do Jonathan */
     .depoimento__jonathan {
-        width: 16.063rem;
+        width: 12.063rem;
         background-color: var(--grey-500);
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        grid-row: 2;
-        grid-column: 1;
-        margin-left: 1.745rem;
     }
 
     .depoimento__jonathan img {
@@ -114,7 +124,7 @@
     }
 
     .depoimento__informacoes__jonathan {
-        width: 16.063rem;
+        width: 11.063rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -125,6 +135,7 @@
         font-size: 1.25rem;
         font-weight: 600;
         line-height: normal;
+        width: 12.063rem;
     }
 
     .informacoes__texto__jonathan {
@@ -134,17 +145,21 @@
         line-height: 140%;
     }
 
+    /* Estilização do Grupo 2 */
+    .depoimento__grupo2 {
+        grid-column: 1;
+        grid-row: 2;
+        display: flex;
+        gap: 2rem;
+    }
+
     /* Estilização do Depoimento da Jeanette Harmon */
     .depoimento__jeanette {
-        width: 16.063rem;
+        width: 12.063rem;
         background-color: var(--white);
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        grid-column: 1;
-        grid-row: 2;
-        justify-self: end;
-        margin-right: 1.875rem;
     }
 
     .depoimento__jeanette img {
@@ -174,7 +189,7 @@
     }
 
     .depoimento__informacoes__jeanette {
-        width: 15.063rem;
+        width: 11.263rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -190,18 +205,17 @@
     .informacoes__texto__jeanette {
         color: var(--grey-400);
         font-size: 0.813rem;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 140%;
     }
 
     /* Estilização do Depoimento do Patrick Abrams */
     .depoimento__patrick {
-        width: 40.438rem;
+        width: 30.438rem;
         background-color: var(--dark-blue);
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        justify-self: center;
     }
 
     .depoimento__patrick img {
@@ -231,7 +245,7 @@
     }
 
     .depoimento__informacoes__patrick {
-        width: 36.438rem;
+        width: 30.438rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -253,13 +267,13 @@
 
     /* Estilização do Depoimento da Kira Whittle */
     .depoimento__kira {
-        width: 40.438rem;
-        margin-bottom: 4.563rem;
+        width: 11.938rem;
         background-color: var(--white);
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        justify-self: center;
+        grid-column: 2;
+        grid-row: span 2;
     }
 
     .depoimento__kira img {
@@ -289,7 +303,7 @@
     }
 
     .depoimento__informacoes__kira {
-        width: 36.438rem;
+        width: 11.938rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;

@@ -9,8 +9,8 @@
     }
 
     .conteudo__depoimento {
-        display: grid;
-        gap: 2rem
+        /* display: grid;
+        gap: 2rem */
     }
 
     /* Estilização do Depoimento do Daniel */
@@ -75,6 +75,11 @@
         line-height: 140%;
     }
 
+    .depoimento__grupo3 {
+        display: flex;
+        justify-content: center;
+    }
+
     /* Estilização do Depoimento do Jonathan */
     .depoimento__jonathan {
         width: 16.063rem;
@@ -82,9 +87,6 @@
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        grid-row: 2;
-        grid-column: 1;
-        margin-left: 1.745rem;
     }
 
     .depoimento__jonathan img {
@@ -141,9 +143,6 @@
         padding: 2rem;
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
-        grid-column: 1;
-        grid-row: 2;
-        justify-self: end;
         margin-right: 1.875rem;
     }
 
