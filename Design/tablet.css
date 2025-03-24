@@ -22,6 +22,9 @@
         border-radius: 0.5rem;
         box-shadow: 1px 2px 6px var(--grey-400);
         justify-self: center;
+        background-image: url(/Assets/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: 63.5% 0%;
     }
 
     .depoimento__daniel img {

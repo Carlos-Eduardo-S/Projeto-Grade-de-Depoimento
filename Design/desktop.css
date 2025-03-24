@@ -1,2 +1,311 @@
 /* Importações */
 @import url(/Design/variaveis.css);
+
+/* Estilização do Desktop */
+@media screen and (min-width: 48.1rem) and (max-width: 90rem) {
+    body {
+        background-color: var(--back-white);
+        font-family: var(--barlow);
+    }
+
+    .conteudo__depoimento {
+        display: grid;
+        gap: 2rem
+    }
+
+    /* Estilização do Depoimento do Daniel */
+    .depoimento__daniel {
+        width: 40.438rem;
+        margin-top: 4.563rem;
+        background-color: var(--purple-500);
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
+        justify-self: center;
+        background-image: url(/Assets/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: 63.5% 0%;
+    }
+
+    .depoimento__daniel img {
+        border-radius: 50%;
+        border: 2px solid var(--purple-300);
+        width: 1.75rem;
+    }
+
+    .daniel__informacoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.063rem;
+        margin-bottom: 1rem;
+    }
+
+    .nome__daniel {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__daniel {
+        font-size: 0.688rem;
+        font-weight: 400;
+        color: var(--purple-50);
+    }
+
+    .depoimento__informacoes__daniel {
+        width: 36.438rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__daniel {
+        color: var(--white);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__daniel {
+        color: var(--purple-50);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    /* Estilização do Depoimento do Jonathan */
+    .depoimento__jonathan {
+        width: 16.063rem;
+        background-color: var(--grey-500);
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
+        grid-row: 2;
+        grid-column: 1;
+        margin-left: 1.745rem;
+    }
+
+    .depoimento__jonathan img {
+        border-radius: 50%;
+        width: 1.75rem;
+    }
+
+    .jonathan__informacoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.063rem;
+        margin-bottom: 1rem;
+    }
+
+    .nome__jonathan {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__jonathan {
+        font-size: 0.688rem;
+        font-weight: 400;
+        color: var(--purple-50);
+    }
+
+    .depoimento__informacoes__jonathan {
+        width: 16.063rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__jonathan {
+        color: var(--white);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__jonathan {
+        color: var(--purple-50);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    /* Estilização do Depoimento da Jeanette Harmon */
+    .depoimento__jeanette {
+        width: 16.063rem;
+        background-color: var(--white);
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: end;
+        margin-right: 1.875rem;
+    }
+
+    .depoimento__jeanette img {
+        border-radius: 50%;
+        width: 1.75rem;
+    }
+
+    .jeanette__informacoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.063rem;
+        margin-bottom: 1rem;
+    }
+
+    .nome__jeanette {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--grey-400);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__jeanette {
+        font-size: 0.688rem;
+        font-weight: 400;
+        color: var(--grey-500);
+    }
+
+    .depoimento__informacoes__jeanette {
+        width: 15.063rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__jeanette {
+        color: var(--grey-500);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__jeanette {
+        color: var(--grey-400);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    /* Estilização do Depoimento do Patrick Abrams */
+    .depoimento__patrick {
+        width: 40.438rem;
+        background-color: var(--dark-blue);
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
+        justify-self: center;
+    }
+
+    .depoimento__patrick img {
+        border-radius: 50%;
+        width: 1.75rem;
+    }
+
+    .patrick__informacoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.063rem;
+        margin-bottom: 1rem;
+    }
+
+    .nome__patrick {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--white);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__patrick {
+        font-size: 0.688rem;
+        font-weight: 200;
+        color: var(--white);
+    }
+
+    .depoimento__informacoes__patrick {
+        width: 36.438rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__patrick {
+        color: var(--grey-200);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__patrick {
+        color: var(--grey-100);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    /* Estilização do Depoimento da Kira Whittle */
+    .depoimento__kira {
+        width: 40.438rem;
+        margin-bottom: 4.563rem;
+        background-color: var(--white);
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 1px 2px 6px var(--grey-400);
+        justify-self: center;
+    }
+
+    .depoimento__kira img {
+        border-radius: 50%;
+        width: 1.75rem;
+    }
+
+    .kira__informacoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.063rem;
+        margin-bottom: 1rem;
+    }
+
+    .nome__kira {
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--grey-500);
+        margin-bottom: 0.25rem;
+    }
+
+    .verificacao__kira {
+        font-size: 0.688rem;
+        font-weight: 200;
+        color: var(--grey-300);
+    }
+
+    .depoimento__informacoes__kira {
+        width: 36.438rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .informacoes__destaque__kira {
+        color: var(--grey-500);
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .informacoes__texto__kira {
+        color: var(--grey-400);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 140%;
+    }
+}
