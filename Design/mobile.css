@@ -1,2 +1,8 @@
 /* Importações */
 @import url(/Design/variaveis.css);
+
+/* Estilização do Mobile */
+body {
+    background-color: var(--back-white);
+    font-family: var(--barlow);
+}
